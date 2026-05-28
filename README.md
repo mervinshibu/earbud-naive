@@ -1,5 +1,7 @@
 # EarBud (Sandbox Edition) 🎤📊
 
+[**Live Demo Link**](https://mervinshibu.github.io/earbud-naive/)
+
 EarBud is a real-time, browser-based vocal note detector and frequency visualizer designed to act as a visual companion for your ears. 
 
 > ⚠️ **Note:** This is an intentional **naive version** of the application. It was built as an educational playground to explore the physics of sound, analyze how the Fourier Transform maps audio, and visualize the relationship between raw frequencies and human pitch perception.
