@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EarBud | Sandbox Note Detector</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer type="module" src="main.js"></script>
+</head>
+<body>
+    <div class="controls">
+        <button class="mic" data-recording="false">🎤</button>
+        <input type="range" id="volume" min="0" max="2" value="1" step="0.01" />
+        <div class="current-note"><span id="note">-</span><sub id="octave"></sub></div>
+    </div>
+
+    <div class="legend-container" id="legend"></div>
+
+    <div class="canvas-container">
+        <canvas id="visualizer"></canvas>
+    </div>
+</body>
+</html>
